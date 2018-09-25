@@ -1,36 +1,55 @@
-body
+body {
   font-size: 14px;
 }
 
+/*This is a yellow stationary text bar at the top of the page.*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/*Thie section contains all of the div elements.*/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/*This is for the copy used in the nav section.*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/*This is for the copy used in the div elements.*/
 h3 {
   font-size: 1.3em;
 }
 
+/*The element class items have a green background unless otherwise noted.*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
+}
+
+/*Below are 3 id tags that alter the background color of a few div elements.*/
+#blueone {
+  background-color: blue;
+}
+
+#pinkone {
+  background-color: pink;
+}
+
+#orangeone {
+  background-color: orange;
+}
